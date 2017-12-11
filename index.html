@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <img src="https://media.giphy.com/media/l1uguGf2RVIsTXNDO/giphy.gif" alt="Star Wars Image">
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 id="game-start">Press any key to get started!</h1>
+                    <h1>Current Word:
+                        <span id="display"></span>
+                    </h1>            
+                    <h1>Incorrect guesses:
+                        <span id="incorrect"></span>
+                    </h1>    
+                    <h1>Number of guesses remaining:
+                        <span id="num-guesses"></span>
+                    </h1>                
+                    <h1 >Wins:
+                        <span id="win-counter"></span>
+                    </h1>                
+                    <h1>Losses:
+                        <span id="losses"></span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
